@@ -1,0 +1,32 @@
+{
+  "name": "order-position-services",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SDE intern take-home: streaming order updates and in-memory net positions over HTTP",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "start:position": "tsx src/position-service/index.ts",
+    "start:order": "tsx src/order-update-service/index.ts",
+    "test": "jest --runInBand",
+    "test:coverage": "jest --runInBand --coverage"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.2",
+    "express": "^4.22.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.25",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^26.2.0",
+    "@types/supertest": "^7.2.1",
+    "jest": "^29.7.0",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.12",
+    "tsx": "^4.23.12",
+    "typescript": "^5.8.3"
+  }
+}
