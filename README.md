@@ -206,8 +206,9 @@ data/order_updates.csv       supplied assessment fixture
 
 ## AI assistance
 
-Parts of this repository were drafted with AI assistance (Grok). The design, validation rules, tests, and documentation were checked against the assessment PDF. I can explain every file and trade-off.
+- Chatgpt is used to indentify and understand the pdf and to generate the initial code structure and some boilerplate code.
+- grok is used to generate the Development, testing, and documentation of the code.
+- grok is used to understand the files and understand the structure and working flow.
+- This repository were drafted with AI assistance (Grok). The design, validation rules, tests, and documentation were checked against the assessment PDF. I can explain every file and trade-off.
 
-## License
 
-Private assessment submission. The CSV is synthetic data provided with the assignment.
